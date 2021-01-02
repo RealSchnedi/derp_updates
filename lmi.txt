@@ -1,0 +1,3 @@
+- Settings: Add ota update support
+- Xtensions: Launch music player on headset connect
+- Volume Dialog: Disable annoying vibration when sliding
