@@ -1,3 +1,12 @@
-- Settings: Add ota update support
-- Xtensions: Launch music player on headset connect
-- Volume Dialog: Disable annoying vibration when sliding
+| DEVICE CHANGES |
+Revert "lmi: Implement userspace optimizations"
+lmi: Switch to standalone extract utils
+| ROM CHANGES |
+Settings: Add ota update support
+System: Include GApps
+Xtensions: Launch music player on headset connect
+Volume Dialog: Disable annoying vibration when sliding up/down
+Xtensions: FOD pressed colors
+Settings: Move dark mode to ThemeRoom
+Settings: Move Styles & Wallpapers to ThemeRoom
+Xtensions: Fix accent and gradient colorpicker bug
