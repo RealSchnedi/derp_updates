@@ -1,12 +1,11 @@
 | DEVICE CHANGES |
-Revert "lmi: Implement userspace optimizations"
-lmi: Switch to standalone extract utils
+lmi: Fix landscape cutout
+lmi: Update prebuilt dtbs/dtbo/kernel to 12.2.4.0 RJKMIXM
+lmi: Update prebuilt modules to 12.2.4.0 RJKMIXM
+lmi: Update fingerprint to redfin's jan 2021
+
 | ROM CHANGES |
-Settings: Add ota update support
-System: Include GApps
-Xtensions: Launch music player on headset connect
-Volume Dialog: Disable annoying vibration when sliding up/down
-Xtensions: FOD pressed colors
-Settings: Move dark mode to ThemeRoom
-Settings: Move Styles & Wallpapers to ThemeRoom
-Xtensions: Fix accent and gradient colorpicker bug
+Merge January security partch
+Revert "Xtensions: FOD pressed colors"
+Volume Seekbar: Disable vibration when sliding up/down
+Xtensions: ColorPicker enhancements
