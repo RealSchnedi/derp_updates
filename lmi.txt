@@ -1,11 +1,25 @@
 | DEVICE CHANGES |
-lmi: Fix landscape cutout
-lmi: Update prebuilt dtbs/dtbo/kernel to 12.2.4.0 RJKMIXM
-lmi: Update prebuilt modules to 12.2.4.0 RJKMIXM
-lmi: Update fingerprint to redfin's jan 2021
-
+lmi: Fix DT2W (includes toggle to disable it)
+lmi: Import power HAL from LA.UM.8.12.r1-14400-sm8250.0
+lmi: Remove hotword permissions
+==============================
 | ROM CHANGES |
-Merge January security partch
-Revert "Xtensions: FOD pressed colors"
-Volume Seekbar: Disable vibration when sliding up/down
-Xtensions: ColorPicker enhancements
+Xtensions: Add QS tile style picker
+Xtensions: Add quick qs brightness slider
+Xtensions: Add QS header image (still missing options)
+Xtensions: Add Navbar/LS/Ambient Pulse
+Xtensions: Move fingerprint options to lockscreen
+Xtensions: RGB accent and gradient enhancements
+Xtensions: Rework SB/QS battery style implementation
+Xtensions: Separate statusbar/QS estimate and percent
+Xtensions: Move QS battery percent and estimate to quicksettings
+Xtensions: Move Wakeup when plugged or unplugged to lockscreen
+Xtensions: Add Default USB Configuration to system
+Xtensions: Cleanup Themes, Quicksettings and lockscreen categories
+Xtensions: Remove QS Panel Type Background (broken)
+==================
+Settings: Tune battery category
+Settings: Move blur toggle to Display options
+Settings: Enable Hide Player by default
+==================
+Under the hood optimization and fixes

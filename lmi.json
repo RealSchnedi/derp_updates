@@ -1,17 +1,17 @@
 {
-   "datetime": 1609873101,
+   "datetime": 1610275926,
    "donate_url": "https://www.paypal.com/paypalme/JonaSchnedi",
    "error": false,
-   "filehash": "c4a2cb94e2ec28310851bf4d144aa472",
-   "filename": "Xtended_3.0_lmi-11-20210105-1858.zip",
+   "filehash": "1cece2e2f14f9b4c9ee3400df85f9519",
+   "filename": "Xtended_3.0_lmi-11-20210110-1052.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-11-unofficial-lmi-msm-xtended-xr-02-01-2021.4178289/",
-   "id": "4a4ba87898f80cbe661d05d2f01634e8b7a76ae25d44651e26c358683b7a999a",
+   "id": "262f24240f87d00c9ba97587a7e3c5a6fe15ab65ea9aecba05587ac528ef5ba5",
    "maintainer": "Schnedi",
    "maintainer_url": "https://forum.xda-developers.com/m/schnedi.4315759/",
    "news_url": "https://t.me/msmf2pro",
-   "size": 962935199,
+   "size": 973760736,
    "telegram_username": "RealSchnedi",
-   "url": "https://sourceforge.net/projects/lmi/files/Xtended_3.0_lmi-11-20210105-1858.zip/download",
+   "url": "https://sourceforge.net/projects/lmi/files/Xtended_3.0_lmi-11-20210110-1052.zip/download",
    "version": "XR",
    "website_url": "https://t.me/msmf2pro"
 }
