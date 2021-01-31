@@ -1,25 +1,41 @@
 | DEVICE CHANGES |
-lmi: Fix DT2W (includes toggle to disable it)
-lmi: Import power HAL from LA.UM.8.12.r1-14400-sm8250.0
-lmi: Remove hotword permissions
+lmi: Fix screen off ok google
+lmi: Fix FLAC audio files playback
 ==============================
 | ROM CHANGES |
-Xtensions: Add QS tile style picker
-Xtensions: Add quick qs brightness slider
-Xtensions: Add QS header image (still missing options)
-Xtensions: Add Navbar/LS/Ambient Pulse
-Xtensions: Move fingerprint options to lockscreen
-Xtensions: RGB accent and gradient enhancements
-Xtensions: Rework SB/QS battery style implementation
-Xtensions: Separate statusbar/QS estimate and percent
-Xtensions: Move QS battery percent and estimate to quicksettings
-Xtensions: Move Wakeup when plugged or unplugged to lockscreen
-Xtensions: Add Default USB Configuration to system
-Xtensions: Cleanup Themes, Quicksettings and lockscreen categories
-Xtensions: Remove QS Panel Type Background (broken)
+DerpQuest: Add animations and interpolators to qs tiles
+DerpQuest: Fix statusbar am/pm hidden/visible
+DerpQuest: animations: Add option to disable scrolling cache
+DerpQuest: Update summaries
+DerpQuest: notifications: HeadsUp blacklists
+DerpQuest: notifications: Less boring heads up option
+DerpQuest: notifications: Add kill button to notification guts
+DerpQuest: themes: Add Disco QS tile style
+DerpQuest: Remove AOSP gestures from here
+DerpQuest: power: Make screenshot optional
+DerpQuest: power: Make screen record optional
+DerpQuest: Disable quick settings on secure lock screens
+DerpQuest: themes: Add volume panel picker
+DerpQuest: Add lockscreen media artwork blur level
+DerpQuest: lockscreen: Add charging animations
+DerpQuest: gestures: Optional screenshot type
 ==================
-Settings: Tune battery category
-Settings: Move blur toggle to Display options
-Settings: Enable Hide Player by default
+Settings: lockscreen: Double tap to trigger doze
+Settings: lockscreen: Ambient Display battery toggle
+Settings: Ambient music: Allow changing the music ticker position
+Settings: Remove legal information from being indexable
+Settings: Enable permission hub by default
 ==================
-Under the hood optimization and fixes
+SystemUI: Add Power off/Reboot/Recovery QS Tile
+Ambient music: Add double tap on track title to skip track
+SystemUI: Add back drag handler
+SystemUI: Fix disable QS pulldown on secure lockscreens
+BrightnessDialog: Dismiss on focus lost
+Ambient pulsing: don't show lock icon
+SystemUI: PowerMenu: always add Power off
+core: Smoother Upload and Download Animation
+config: Allow opening power menu when screen is off
+LockscreenCharging: Calculate power from voltage and current
+Add QS Language tile
+==================
+And much more...

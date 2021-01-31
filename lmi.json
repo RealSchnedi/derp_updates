@@ -1,17 +1,17 @@
 {
-   "datetime": 1610275926,
+   "datetime": 1612000787,
    "donate_url": "https://www.paypal.com/paypalme/JonaSchnedi",
    "error": false,
-   "filehash": "1cece2e2f14f9b4c9ee3400df85f9519",
-   "filename": "Xtended_3.0_lmi-11-20210110-1052.zip",
-   "forum_url": "https://forum.xda-developers.com/t/rom-11-unofficial-lmi-msm-xtended-xr-02-01-2021.4178289/",
-   "id": "262f24240f87d00c9ba97587a7e3c5a6fe15ab65ea9aecba05587ac528ef5ba5",
+   "filehash": "baf706d45f8b53d4ac0486e62019a149",
+   "filename": "DerpFest-0.2_lmi-11-20210130-2337-Community-Alpha.zip",
+   "forum_url": "https://forum.xda-developers.com/t/rom-unofficial-lmi-11-derpfest-ci-23-01-21.4220171/",
+   "id": "91cec1ab501dd185779d417a5ff1ff8fd8d4b70967323e3667498a1c122fa16f",
    "maintainer": "Schnedi",
    "maintainer_url": "https://forum.xda-developers.com/m/schnedi.4315759/",
-   "news_url": "https://t.me/msmf2pro",
-   "size": 973760736,
+   "news_url": "https://t.me/derpf2pro",
+   "size": 1308778290,
    "telegram_username": "RealSchnedi",
-   "url": "https://sourceforge.net/projects/lmi/files/Xtended_3.0_lmi-11-20210110-1052.zip/download",
-   "version": "XR",
-   "website_url": "https://t.me/msmf2pro"
+   "url": "https://sourceforge.net/projects/lmi/files/DerpFest-0.2_lmi-11-20210130-2337-Community-Alpha.zip/download",
+   "version": "0.2",
+   "website_url": "https://t.me/derpf2pro"
 }
