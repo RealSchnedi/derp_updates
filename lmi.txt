@@ -1,41 +1,47 @@
 | DEVICE CHANGES |
-lmi: Fix screen off ok google
-lmi: Fix FLAC audio files playback
+lmi: fod: Improve dim calculation
+lmi: prop: Fix blue overlay on videos in some apps
+lmi: rootdir: Check persist
+lmi: Don't pin camera app in memory
+lmi: overlay: Configure SQLite to operate in MEMORY mode
+lmi: set TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY to 338
+lmi: Remove PRODUCT_AAPT config
+lmi: Drop dummy libplatformconfig
+lmi: kang dex2oat configuration from aospa
 ==============================
 | ROM CHANGES |
-DerpQuest: Add animations and interpolators to qs tiles
-DerpQuest: Fix statusbar am/pm hidden/visible
-DerpQuest: animations: Add option to disable scrolling cache
-DerpQuest: Update summaries
-DerpQuest: notifications: HeadsUp blacklists
-DerpQuest: notifications: Less boring heads up option
-DerpQuest: notifications: Add kill button to notification guts
-DerpQuest: themes: Add Disco QS tile style
-DerpQuest: Remove AOSP gestures from here
-DerpQuest: power: Make screenshot optional
-DerpQuest: power: Make screen record optional
-DerpQuest: Disable quick settings on secure lock screens
-DerpQuest: themes: Add volume panel picker
-DerpQuest: Add lockscreen media artwork blur level
-DerpQuest: lockscreen: Add charging animations
-DerpQuest: gestures: Optional screenshot type
-==================
-Settings: lockscreen: Double tap to trigger doze
-Settings: lockscreen: Ambient Display battery toggle
-Settings: Ambient music: Allow changing the music ticker position
-Settings: Remove legal information from being indexable
-Settings: Enable permission hub by default
-==================
-SystemUI: Add Power off/Reboot/Recovery QS Tile
-Ambient music: Add double tap on track title to skip track
-SystemUI: Add back drag handler
-SystemUI: Fix disable QS pulldown on secure lockscreens
-BrightnessDialog: Dismiss on focus lost
-Ambient pulsing: don't show lock icon
-SystemUI: PowerMenu: always add Power off
-core: Smoother Upload and Download Animation
-config: Allow opening power menu when screen is off
-LockscreenCharging: Calculate power from voltage and current
-Add QS Language tile
-==================
+Merge february security patch
+=====
+DerpQuest: Rework dark themes implementation
+DerpQuest: Rework Network traffic implementation
+DerpQuest: Fixup! fingerprint authentication vibration
+DerpQuest: Add fingerprint error vibration
+DerpQuest: Enable battery light customization
+DerpQuest: Fixup! Pulse visualizer
+DerpQuest: Old style mobile data indicators
+DerpQuest: Clipboard toast toggle
+DerpQuest: Bring back Gaming mode
+DerpQuest: QS Header data usage info
+DerpQuest: Smart Pixels
+DerpQuest: Refactor QS Brightness slider options
+DerpQuest: Make sure that all of our preferences searchable
+DerpQuest: Add pref for qs brightness slider position
+=====
+Settings: Add smart charging
+Settings: Add increasing ring feature
+Settings: Set phone app as default (need confirmation)
+Settings: Fix default brightness level display 0
+Settings: Phone ringtone setting for Multi SIM device
+=====
+base: Add scroll to screenshot UI fot long ss
+SystemUI: CPU info overlay & QS tile
+SystemUI: FPS Info Overlay & QS tile
+fixup! core: Smoother Upload and Download Animation
+SystemUI: Add SleepScreen Tile (Power menu on longpress)
+SystemUI: Fix volume transparent BG when black theme enabled
+SystemUI: Fix lockscrren charging animation overlapping fod icon
+SystemUI: Move quick QS brightness slider to the bottom
+Accents / QSTiles: Build in product and as RRO package
+=====
+Under the hood fixes and improvements
 And much more...

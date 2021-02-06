@@ -1,17 +1,17 @@
 {
-   "datetime": 1612000787,
+   "datetime": 1612603133,
    "donate_url": "https://www.paypal.com/paypalme/JonaSchnedi",
    "error": false,
-   "filehash": "baf706d45f8b53d4ac0486e62019a149",
-   "filename": "DerpFest-0.2_lmi-11-20210130-2337-Community-Alpha.zip",
+   "filehash": "58445e3deed3f5406b798acc06d0f8d8",
+   "filename": "DerpFest-0.3_lmi-11-20210206-0918.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-unofficial-lmi-11-derpfest-ci-23-01-21.4220171/",
-   "id": "91cec1ab501dd185779d417a5ff1ff8fd8d4b70967323e3667498a1c122fa16f",
+   "id": "5d899bd902557dde4c7a810ebceb342b372de467aa1675b1dee80184b2e00565",
    "maintainer": "Schnedi",
    "maintainer_url": "https://forum.xda-developers.com/m/schnedi.4315759/",
    "news_url": "https://t.me/derpf2pro",
-   "size": 1308778290,
+   "size": 1320501968,
    "telegram_username": "RealSchnedi",
    "url": "https://sourceforge.net/projects/lmi/files/DerpFest-0.2_lmi-11-20210130-2337-Community-Alpha.zip/download",
-   "version": "0.2",
+   "version": "0.3",
    "website_url": "https://t.me/derpf2pro"
 }
