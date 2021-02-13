@@ -1,47 +1,55 @@
 | DEVICE CHANGES |
-lmi: fod: Improve dim calculation
-lmi: prop: Fix blue overlay on videos in some apps
-lmi: rootdir: Check persist
-lmi: Don't pin camera app in memory
-lmi: overlay: Configure SQLite to operate in MEMORY mode
-lmi: set TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY to 338
-lmi: Remove PRODUCT_AAPT config
-lmi: Drop dummy libplatformconfig
-lmi: kang dex2oat configuration from aospa
+lmi: Fix Smart Charging denials
+lmi: Switch to Audio HAL V6
+lmi: Drop android.hardware.thermal HAL
+lmi: Build android.audio.service
+lmi: display: Add libdisplayconfig.qti to product packages
+lmi: overlay: Update CarrierConfig from LA.QSSI.11.0.r1-09400-qssi.0
+lmi: rootdir: Tune UFS clock scaling during boot time
+lmi: Refactor custom init
+lmi: overlay: Fix fingerprint wake-up animation
+lmi:: Update fingerprint to redfin feb 2021
+lmi: prop: Kill more IMS logspam
+lmi: Add qccsyshal to manifest
+lmi: bluetooth: Disable clean turn on
+lmi: Build vendor.qti.hardware.perf@2.0 from source
+lmi: overlay-remove: Cleanup
 ==============================
 | ROM CHANGES |
-Merge february security patch
+Derpquest: themes: Add Switch styles
+DerpQuest: lockscreen: Add 404 IDE clock
+DerpQuest: lockscreen: Add Sammy 404 clock
+DerpQuest: lockscreen: Add Fluid clock
+DerpQuest: lockscreen: Add 8 more FOD icons
+DerpQuest: statusbar: Rework battery bar implementation
+DerpQuest: misc: Pulse edge light for all doze triggers
+DerpQuest: misc: Make sensor block package list configurable
+DerpQuest: navigation: Arrow keys while typing
+DerpQuest: misc: Update Smart Pixels menu
+DerpQuest: gestures: Move aosp gestures to here
 =====
-DerpQuest: Rework dark themes implementation
-DerpQuest: Rework Network traffic implementation
-DerpQuest: Fixup! fingerprint authentication vibration
-DerpQuest: Add fingerprint error vibration
-DerpQuest: Enable battery light customization
-DerpQuest: Fixup! Pulse visualizer
-DerpQuest: Old style mobile data indicators
-DerpQuest: Clipboard toast toggle
-DerpQuest: Bring back Gaming mode
-DerpQuest: QS Header data usage info
-DerpQuest: Smart Pixels
-DerpQuest: Refactor QS Brightness slider options
-DerpQuest: Make sure that all of our preferences searchable
-DerpQuest: Add pref for qs brightness slider position
+Settings: Redesign Android Version
+Settings: Redesign preference category
+Settings: Add option for Gesture bar Radius
+Settings: Implement Aggressive Battery
+Settings: Forward port lock pattern grid size
+Settings: Forward port pattern visibility settings
 =====
-Settings: Add smart charging
-Settings: Add increasing ring feature
-Settings: Set phone app as default (need confirmation)
-Settings: Fix default brightness level display 0
-Settings: Phone ringtone setting for Multi SIM device
-=====
-base: Add scroll to screenshot UI fot long ss
-SystemUI: CPU info overlay & QS tile
-SystemUI: FPS Info Overlay & QS tile
-fixup! core: Smoother Upload and Download Animation
-SystemUI: Add SleepScreen Tile (Power menu on longpress)
-SystemUI: Fix volume transparent BG when black theme enabled
-SystemUI: Fix lockscrren charging animation overlapping fod icon
-SystemUI: Move quick QS brightness slider to the bottom
-Accents / QSTiles: Build in product and as RRO package
+SystemUI: Rework QS layout
+SystemUI: Update brightness slider drawables
+SystemUI: Introduce OOS style notification clear all button
+SystemUI: Set some QS tiles state to inactive
+SystemUI: Use MD2 icons for power menu
+SystemUI: Disable blur wakeup animation
+base: Disable FP dialog string
+base: ToastUI: Show app icon on system text toasts as well
+GlobalScreenshot: Use default screenshot dismiss delay
+SystemUI: allow to limit the max framerate of built-in screen recorder
+ScreenRecord: Improve low quality screen record
+base: media_seekbar: make it sexy
+base: Fix long click intent for Smart Pixels tile
+systemUI: FODCircleView: Nuke Fade animation
+base: Improve notification header toggle
 =====
 Under the hood fixes and improvements
 And much more...
