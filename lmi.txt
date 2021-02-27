@@ -1,38 +1,27 @@
 | DEVICE |
-Disable VOIP audio compression
-Build libdisplayconfig.qti.vendor
-Bump vendor.display.config to 2.0
-Use the new AIDL QTI thermal HAL
+Drop overlay-remove
+Drop dummy libthermalclient module
+Copy permission for freeform windows
 ============
 | DERPQUEST |
-themes: Fix dark themes colors
-quicksettings: Allow toggling QS media player
-themes: Add Gvisual Mod
-misc: Allow signature spoofing
-power: Add animations options
-gestures: Rework DT2S on lockscreen & statusbar implementation
-volume: Rework rocker music control implementation
-themes: Remove prebuilt accents
-quicksettings: Remove rows, columns and tiles titles options (moved to QS)
-Rework CustomSeekbar implementation
+power: Allow doubletap/longpress power to toggle torch
+notifications: Add toggle to center Notification headers
+animations: Custom system animations
+animations: Toast Animations
+animations: ListView animation
 ============
 | SETTINGS |
-Fix "manage storage" crash
-sound: Allow customizing volume dialog timeout
-display: Make lockscreen timeout configurable
+Move DerpQuest to top
+Revamp dashboard icons
+Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
 ============
 | SYSTEM |
-QS: Make columns and rows configurable
-QS: Quickbar columns config
-QS: Hide label option
-Remove notifications panel peek at statusbar tap
-Remove "clear all" text from qs notifications
-Remove qs header estimate time
-Fix lockscreen translucent notifications
-Add burn-in protection to navigation bar
-Set Pixel 3XL prop for gms
-User toggle to show/hide status area in clock style
-Open Sound settings on long click at the panel button
+Themes: SystemUI: expose screen pinning colors
+BiometricPrompt: Force portrait orientation
+SystemUI: Fix issues with VoWiFi icon
+Stop resetting battery stats after reboot with battery level >= 90
+NetworkTrafficSB: Better workaround for RequestLayout() spam
+Install seccomp filter even if selinux is permissive
 ===========
 Under the hood fixes and improvements
 And much more...
