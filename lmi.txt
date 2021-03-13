@@ -1,27 +1,41 @@
 | DEVICE |
-Drop overlay-remove
-Drop dummy libthermalclient module
-Copy permission for freeform windows
+Update prebuilt kernel and dtbo from MIUI 12.2.5.0
+Update prebuilt kernel modules from MIUI 12.2.5.0
+Update fstab from MIUI 12.2.5.0
+Fix FPS overlay
+Build IPACM libs
+Update perf to 2.2
+Build more Wi-Fi libs
+Build more RIL libs
+Build more display libs
+Build WFD libs 
+Drop Dirac
+Drop auth biometric fingerprint view
+prop: Update Nextflix custom property
 ============
 | DERPQUEST |
-power: Allow doubletap/longpress power to toggle torch
-notifications: Add toggle to center Notification headers
-animations: Custom system animations
-animations: Toast Animations
-animations: ListView animation
+navigation: Re-add and fix pixel navbar animation
 ============
 | SETTINGS |
-Move DerpQuest to top
-Revamp dashboard icons
-Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+Fixup FaceUnlock implementation
+Allow using face as auth method for apps
+Add screenshot sound toggle
+Fix battery temperature
+Use correct icon to reset battery stats
+updater: Fix dark theme to follow system
+updater: Fix text color for bottom button
+updater: Remove device codename and maintainer name
+updater: Set bottom text button font to Google Sans Medium
 ============
 | SYSTEM |
-Themes: SystemUI: expose screen pinning colors
-BiometricPrompt: Force portrait orientation
-SystemUI: Fix issues with VoWiFi icon
-Stop resetting battery stats after reboot with battery level >= 90
-NetworkTrafficSB: Better workaround for RequestLayout() spam
-Install seccomp filter even if selinux is permissive
+Switch to Shady launcher
+Replace derpfest bootanimation for a generic one
+AuthBiometricFingerprintView: Fix indicator text color on dark theme
+LS charging info: Add support for Fahrenheit
+Update/Fix some UI arrow icons
+Fixup dynamic VoLTE & VoWiFi icons
+Switch to OOS drawables for navbar icons
+Fix some homescreen widgets not loading
 ===========
 Under the hood fixes and improvements
 And much more...
