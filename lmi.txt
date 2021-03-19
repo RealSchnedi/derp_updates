@@ -1,41 +1,31 @@
 | DEVICE |
-Update prebuilt kernel and dtbo from MIUI 12.2.5.0
-Update prebuilt kernel modules from MIUI 12.2.5.0
-Update fstab from MIUI 12.2.5.0
-Fix FPS overlay
-Build IPACM libs
-Update perf to 2.2
-Build more Wi-Fi libs
-Build more RIL libs
-Build more display libs
-Build WFD libs 
-Drop Dirac
-Drop auth biometric fingerprint view
-prop: Update Nextflix custom property
+Label more sepolicies
+overlay: Improve haptic and vibration patterns
+overlay: Update brightness values
+fod: Improve brightness dimming formula
+Enforce vendor tree presence
+Set nosdcard characteristic
+Set both arch variants to armv8-2a
+audio: Remove TelePhony Rx from primary input
+audio: Use primary input sources for voip_tx
+parts: Takeback the motor if it's not closed on create
+parts: Delay creating MotorStatusCallback when the motor is opened
+parts: Quickly takeback the motor in free fall
+parts: Added ringer mode checking for camera sound effect
 ============
 | DERPQUEST |
-navigation: Re-add and fix pixel navbar animation
+Bring back QS rows and columns options
+Fix toast animation crash
+statusbar: Add camera, location and microphone to sb icons
 ============
 | SETTINGS |
-Fixup FaceUnlock implementation
-Allow using face as auth method for apps
-Add screenshot sound toggle
-Fix battery temperature
-Use correct icon to reset battery stats
-updater: Fix dark theme to follow system
-updater: Fix text color for bottom button
-updater: Remove device codename and maintainer name
-updater: Set bottom text button font to Google Sans Medium
+security: Introduce AppLock
 ============
 | SYSTEM |
-Switch to Shady launcher
-Replace derpfest bootanimation for a generic one
-AuthBiometricFingerprintView: Fix indicator text color on dark theme
-LS charging info: Add support for Fahrenheit
-Update/Fix some UI arrow icons
-Fixup dynamic VoLTE & VoWiFi icons
-Switch to OOS drawables for navbar icons
-Fix some homescreen widgets not loading
+Fix duplicated location icon in the QS Header
+Fix padding between privacy icons and network traffic
+Ensure FOD view is correctly hidden
+Añadida traducción al Castellano
 ===========
 Under the hood fixes and improvements
 And much more...
