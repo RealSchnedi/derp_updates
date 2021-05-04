@@ -1,31 +1,31 @@
 | DEVICE |
-Label more sepolicies
-overlay: Improve haptic and vibration patterns
-overlay: Update brightness values
-fod: Improve brightness dimming formula
-Enforce vendor tree presence
-Set nosdcard characteristic
-Set both arch variants to armv8-2a
-audio: Remove TelePhony Rx from primary input
-audio: Use primary input sources for voip_tx
-parts: Takeback the motor if it's not closed on create
-parts: Delay creating MotorStatusCallback when the motor is opened
-parts: Quickly takeback the motor in free fall
-parts: Added ringer mode checking for camera sound effect
+Remove unnecessary display-composer blobs
+Update gps config for better stability & accuracy 
 ============
 | DERPQUEST |
-Bring back QS rows and columns options
-Fix toast animation crash
-statusbar: Add camera, location and microphone to sb icons
+status bar: Add notification counter
+Remove lockscreen charging info (buggy)
+Add top option to quick qs slider position
+notifications: Clipboard access toast improvements
 ============
 | SETTINGS |
-security: Introduce AppLock
+Battery: Add Smart cutoff
+Add spring/bounce effect
 ============
 | SYSTEM |
-Fix duplicated location icon in the QS Header
-Fix padding between privacy icons and network traffic
-Ensure FOD view is correctly hidden
-Añadida traducción al Castellano
-===========
-Under the hood fixes and improvements
-And much more...
+Merge May security patch
+Bump to v2.2
+Update Redfin's fingerprint to May 2021
+FOD: Several improvements and cleanup
+QS: Fix brightness slider animation when on top
+Fix double tap to wake on ambient
+QS: Remove ripple effect from qs footer icons
+TrafficSB: Switch quick statusbar header to LinearLayout
+Configure same GID based APNs as per carrier requirements
+Fix two problems in the ExecuteBinary function
+Fix contention and unify Smart Charging/Cutoff
+Kill klondike-saur
+Fix failed unlock attempt dialog button
+Ensure keyguardstatusbar is hidden if not on keyguard
+camera: Allow selected camera apps to skip unconfigure
+Add null check for mCurrentDialog in onBiometricError()
