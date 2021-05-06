@@ -1,6 +1,13 @@
+| HOTFIX |
+Fix GPS accuracy
+Enable doze mode
+Update derp version in system updates
+Use simple check for isFaceDisabled
+analog clock: Update positioning
+Set notification opacity for smart replies
+============
 | DEVICE |
 Remove unnecessary display-composer blobs
-Update gps config for better stability & accuracy 
 ============
 | DERPQUEST |
 status bar: Add notification counter
