@@ -1,38 +1,27 @@
-| HOTFIX |
-Fix GPS accuracy
-Enable doze mode
-Update derp version in system updates
-Use simple check for isFaceDisabled
-analog clock: Update positioning
-Set notification opacity for smart replies
-============
 | DEVICE |
-Remove unnecessary display-composer blobs
+Update Hotword Enrollment support
+kernel improvements
 ============
 | DERPQUEST |
-status bar: Add notification counter
-Remove lockscreen charging info (buggy)
-Add top option to quick qs slider position
-notifications: Clipboard access toast improvements
+lockscreen: Add weather options
+volume: Support set volume per app and make it optional
+statusbar: Add colored icons toggle
 ============
 | SETTINGS |
-Battery: Add Smart cutoff
-Add spring/bounce effect
+Redesign BatteryMeter style
+Redesign storage summary header
 ============
 | SYSTEM |
-Merge May security patch
-Bump to v2.2
-Update Redfin's fingerprint to May 2021
-FOD: Several improvements and cleanup
-QS: Fix brightness slider animation when on top
-Fix double tap to wake on ambient
-QS: Remove ripple effect from qs footer icons
-TrafficSB: Switch quick statusbar header to LinearLayout
-Configure same GID based APNs as per carrier requirements
-Fix two problems in the ExecuteBinary function
-Fix contention and unify Smart Charging/Cutoff
-Kill klondike-saur
-Fix failed unlock attempt dialog button
-Ensure keyguardstatusbar is hidden if not on keyguard
-camera: Allow selected camera apps to skip unconfigure
-Add null check for mCurrentDialog in onBiometricError()
+Screenrecord: Add an option to record for longer (15GB)
+Increase a bit the blur radius on QS/Power menu
+Fix wrong VoLTE/VoWiFi slot detection
+Add support for runtime toggle of navbar
+Add kill button to notification conversation guts
+Update carrier label margin right after setting the padding
+Map extra dynamic partitions for Addon.d V3
+Remove wtf about JobScheduler.Background
+HwAudioSource: wrong native handle check
+Don't move home stack to front in freeform mode
+BatteryMeterDrawableBase: Remove batterymeter bolt
+Remove background tint from emergency tile
+VolumeDialogImpl: Remove insets listener on dismiss
