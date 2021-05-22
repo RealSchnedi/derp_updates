@@ -1,27 +1,42 @@
 | DEVICE |
-Update Hotword Enrollment support
-kernel improvements
+Switch to OSS DTBO
+Kernel fixes and improvements (@Ayrton)
+Tune init.qcom.post_boot for Quantic Kernel
+Fix Google voice recorder
+Remove virtual framebuffer
 ============
 | DERPQUEST |
-lockscreen: Add weather options
-volume: Support set volume per app and make it optional
-statusbar: Add colored icons toggle
+lockscreen: Implement FOD icon animation
 ============
 | SETTINGS |
-Redesign BatteryMeter style
-Redesign storage summary header
+Convert Adaptive charging/Adaptive temperature to MasterSwitch
+Update preference videos
+Remove hardcoded extras from ChooseLockPatternSize
+Make FRP go through ChooseLockPatternSize if needed
+Make setup wizard go through ChooseLockPatternSize if needed
+Add missing icons in Network and Internet
+Move app compatibility preference to apps and notifications
+development: disable DSULoader
 ============
 | SYSTEM |
-Screenrecord: Add an option to record for longer (15GB)
-Increase a bit the blur radius on QS/Power menu
-Fix wrong VoLTE/VoWiFi slot detection
-Add support for runtime toggle of navbar
-Add kill button to notification conversation guts
-Update carrier label margin right after setting the padding
-Map extra dynamic partitions for Addon.d V3
-Remove wtf about JobScheduler.Background
-HwAudioSource: wrong native handle check
-Don't move home stack to front in freeform mode
-BatteryMeterDrawableBase: Remove batterymeter bolt
-Remove background tint from emergency tile
-VolumeDialogImpl: Remove insets listener on dismiss
+Update Launcher to v11-2021.03.22
+Fix launcher permissions
+Add center style Typographic clock
+Import VoLTE and VoWiFi icons from Vivo X60 Pro
+Fix issue with answering call for some 3rd party apps
+Optimize the volume dialog expand animation
+Make tri-state SystemUI dialog dimensions conditional
+Alert slider: Fixes and improvements
+VolumePluginManager: More fixes toggling panel
+Add option to scale default wallpaper to screen size
+Shrink hi-res files of headers or ambient image than the device size
+Fix option to enable AOD on charging only
+Doze-on-charge: Improvements
+Redo Pocket mode view like OOS
+Notify fps as Session Based Parameter
+Edit persist.camera.privapp.list to match with current property
+Change temperature to float
+Add '@hide' comment to pass through api check
+Make isUidIsolated public
+Remove unused resources
+Fix screenshot sharing with longshot and launcher
