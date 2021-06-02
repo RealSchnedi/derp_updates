@@ -1,27 +1,22 @@
 | DEVICE |
-Fix Adaptive charging (smart charging)
-Increase a bit calls volume
-kernel upstreamed to 4.19.191
-Kernel fixes and improvements (@Ayrton)
-Tune UFS clock scaling during boot time
-Allow system server to read Fast Charging status
-Cleanup post-boot service
-Remove init.qcom.sdio.sh
-Cleanup init.qcom.sh
+Fix terminal/SU reboot bug
+Set schedutil governor for cpu4 and cpu7 on post_boot
 ============
 | DERPQUEST |
-lockscreen: Add animated OxygenOS and OneUI FOD icons
-notifications: Add reTicker
-lockscreen: Add back fod icon picker
-themes: G-Visual: Add AOSP volume panel
-quicksettings: Replace media notification background with artwork
-Powermenu: background opacity
+themes: Custom Rounded Corners
+lockscreen: Fix media artwork % blur reset bug
+============
+| SETTINGS |
+ambient: Fix media ticker overlapping FOD icon
 ============
 | SYSTEM |
-Redesign volume dialog
-Redesign VoWiFi icons
-Remove broken PhoneStateListener for airplane mode toggle
-Remove notification panel opacity from Power menu
-Fix QS header dark theme QS customizer string
-Reimplement SBC Dual Channel in a saner way
-Add a one minute timeout to global actions dialog
+maybePruneOldTraces: bail if modification times change
+Use BinderDeathDispatcher for alarm listeners
+SystemUI: QS: minimize detail view to middle of the button
+SystemUI: avoid double ripple in QS detail view
+SystemUI: use matching padding on both sides of QS detail title
+SystemUI: Use MD2 icon for running services in QS
+Make releaseSomeActivities() a oneway call
+Add madvising of .odex, .vdex and .art files
+TypeClock: Align owner info as per the clock style
+SystemUI: Left align owner info on IDE clock
