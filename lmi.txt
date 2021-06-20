@@ -1,37 +1,43 @@
 | DEVICE |
-Use a mask to make corners perfectly smooth
-Switch to another kernel branch
-Fix purple tint on low brightness (higher lowest brightness)
-Build custom audio amplifier
-Kill deprecated TARGET_USES_MKE2FS
-Unset config_deviceLightCapabilities
-Rework some sepolicy denials
-Enable higher SBC dual bitrate
-Use CAF media configs
-Set VENDOR_SECURITY_PATCH to platform
-Hide Magisk Better
-Compile kernel with Clang 12.0.6
-Switch to AOSP light HIDL
-Fix mic issues in some apps
-Fix crash on audio service
-Remove xlog logging from audio HAL
+Fix 4k video recording
+Fix haptic vibration
+Fix screen recorder lag
+Fix Google Photos video playback stutter
+Upstream kernel to 4.19.195
+Import audio_policy_volumes from MIUI
+Update auto mounting of USB OTG for all USB ports
+Compile kernel with Clang 12.0.7
+fod: Set the module type to vendor
+fod: Bump to v1.1
+
 ============
 | DERPQUEST |
-themes: Introduce Custom Statusbar Signal & Wi-Fi icons
-themes: GVisual:: Introduce navbar styles
-themes: Remove round corners feature (buggy)
+notifications: Status bar ticker
+lockscreen: Allow hiding FOD on doze
+miscellaneous: Add WakelockBlocker
+miscellaneous: Add AlarmsBlocker
+
+============
+| SETTINGS |
+Allow changing face unlock method when locked
+LiveDisplay: Add color mode preview from AOSP
+Use framework text colors for SwitchBar
+
 ============
 | SYSTEM |
-Merge June security patch
-Bump to v2.3
-Fix VolumeDialog animation when ringer and notification are unlinked
-Don't enforce playback of audio
-Drop FaceUnlock lockouts
-Increase Watchdog default timeout by 30 seconds
-Run Watchdog emergency sync before killing system
-Check if the logical light is null before using it
-Don't unmute stream if stream is muted by ringer/zen mode
-Don't enable detect-only fingerprint auth for FOD
-Add a null check for captions icon
-Use SystemUI reboot view also for OTA uncrypt
-Add Cellular tile icon from OOS
+Update Launcher to v11-2021.06.13
+Make clock layouts aware of the media playing state
+IconPack: Fix Kai and Victor clock icon
+Disallow certain power menu items while in lock task mode
+Improve pocket mode layout
+Improve AppLock strings and cleanup
+Fix NPE when notification icon is empty
+Hide keyguard when SIM transitions to READY
+Fixup AOD fingerprint support
+Fix GamingModeTile long press
+Improve ScreenRecord Dialog layout
+Use secondary label to indicate mode in Screenshot tile
+Fixup align owner info as per the clock style
+Unregister AmbientDisplay proximity when screen off fod is active
+Update DozeTriggers setListening usage
+And much more...
