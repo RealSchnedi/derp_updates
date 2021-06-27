@@ -1,43 +1,32 @@
 | DEVICE |
-Fix 4k video recording
-Fix haptic vibration
-Fix screen recorder lag
-Fix Google Photos video playback stutter
-Upstream kernel to 4.19.195
-Import audio_policy_volumes from MIUI
-Update auto mounting of USB OTG for all USB ports
-Compile kernel with Clang 12.0.7
-fod: Set the module type to vendor
-fod: Bump to v1.1
-
+Kernel fixes and improvements
+Add offline charging LED indicator
+Build custom lights AIDL
+Move fod to AOSP Soong conditionals
+Update audio_io_policy for VoIP
+Add missing audio voip_rx flag
+Remove stereo channel mask from voip rx
+Disable COMPRESS_VOIP
+Fix QTI dynamic partition size
+Disable SDM rotator downscaler
+Enable QCRIL radio power saving
+Set target arch variant "armv8-2a"
 ============
 | DERPQUEST |
-notifications: Status bar ticker
-lockscreen: Allow hiding FOD on doze
-miscellaneous: Add WakelockBlocker
-miscellaneous: Add AlarmsBlocker
-
+Remove: quicksettings: media notification background with artwork
 ============
 | SETTINGS |
-Allow changing face unlock method when locked
-LiveDisplay: Add color mode preview from AOSP
-Use framework text colors for SwitchBar
-
+Ignore custom app space management activities
+Export the gravity of the fingerprint enroll animation
+Update vibration patterns
 ============
 | SYSTEM |
-Update Launcher to v11-2021.06.13
-Make clock layouts aware of the media playing state
-IconPack: Fix Kai and Victor clock icon
-Disallow certain power menu items while in lock task mode
-Improve pocket mode layout
-Improve AppLock strings and cleanup
-Fix NPE when notification icon is empty
-Hide keyguard when SIM transitions to READY
-Fixup AOD fingerprint support
-Fix GamingModeTile long press
-Improve ScreenRecord Dialog layout
-Use secondary label to indicate mode in Screenshot tile
-Fixup align owner info as per the clock style
-Unregister AmbientDisplay proximity when screen off fod is active
-Update DozeTriggers setListening usage
+FOD: Improve position update
+QS: Decrease vertical padding between QS tiles
+Fix QS detail panel with header image enabled
+QS: Properly apply changes with header image enabled
+Fix LockIcon log warning
+Fix inconsistency in ringtone list
+Allow Seamless rotation while PIP is active
+Fix dual sim preferences resetting after a reboot
 And much more...
