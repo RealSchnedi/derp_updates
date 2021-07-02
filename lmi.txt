@@ -1,32 +1,30 @@
 | DEVICE |
+Rebase DT tp inline with lineage
+Update blobs from alioth
 Kernel fixes and improvements
-Add offline charging LED indicator
-Build custom lights AIDL
-Move fod to AOSP Soong conditionals
-Update audio_io_policy for VoIP
-Add missing audio voip_rx flag
-Remove stereo channel mask from voip rx
-Disable COMPRESS_VOIP
-Fix QTI dynamic partition size
-Disable SDM rotator downscaler
-Enable QCRIL radio power saving
-Set target arch variant "armv8-2a"
 ============
 | DERPQUEST |
-Remove: quicksettings: media notification background with artwork
+themes: Introduce font manager
+themes: Add android 12 style switch
 ============
 | SETTINGS |
-Ignore custom app space management activities
-Export the gravity of the fingerprint enroll animation
-Update vibration patterns
+Bomb settings suggestions with napalm - Episode R
 ============
 | SYSTEM |
-FOD: Improve position update
-QS: Decrease vertical padding between QS tiles
-Fix QS detail panel with header image enabled
-QS: Properly apply changes with header image enabled
-Fix LockIcon log warning
-Fix inconsistency in ringtone list
-Allow Seamless rotation while PIP is active
-Fix dual sim preferences resetting after a reboot
-And much more...
+Drop the maximum recommended log size from 16MiB to 8MiB
+Remove overscroll shadow for all
+Fix PixelCopy & BQ crop
+Make build property spoofing more reliable
+Don't check for fingerprint mismatch
+Add provision to pulse without proximity check
+FOD: Clean ups and improvements
+Set scrolling friction to 0.006f
+Tune the brightness slider animation duration
+Add support to see if there are visible notifications in ClockPlugin
+Fix wrong VoLTE/VoWiFi slot detection
+Add a config to show correct VoLTE/VoWiFi icons
+Scale BrightnessSlider animation duration with defined BrightnessRampRate
+Fix showing duplicated charging status after r38 merge
+IconPack: Use the same notification and ring icons as in settings
+IconPack: Use the correct icon for notification and ring volume
+And more...
