@@ -1,20 +1,34 @@
 | DEVICE |
-Fix rounded corners mask
-Import new miui offline charging daemon
-Disable volte HD notification
-Fix fast charging (@ayrton99)
-Kernel fixes and improvements (@ayrton99)
+Update brightness overlays
+Lower minimum brightness
+Kernel fixes and improvements
+
 ============
-| SETTINGS |
-Remove empty category from Security
+| DERPQUEST |
+themes: Add P404, OOS, SOSS Volume Panels
+notifications: Add Flashlight blink on incoming calls
+volume: Add back per-app volume row
+
 ============
 | SYSTEM |
-Update security patch to July
-Bump to v2.4
-QS: Increase notif header height
-Add content type header when making POST request to pasty
-Don't enable FOD when strong auth is required
-Pass FODCircleView to StatusBar constructor
-Hide FOD if fingerprint detection stops
-Update GS, OP Slate and add OP Sans fonts
+Fix SystemUI crash when taking screenshot using 3-fingers gesture
+Use Asus Stitchimage as default screenshot service
+Switch to Hastebin for copying crash logs
+IDE clock: fix the C++ syntax and format
+Revert to stock AOSP volume panel
+Fix volume dialog issue
+Fix touch area on captions and ringer button when on landscape
+Optimize Notification ticker
+PrivacyChip: Do not change view on expand
+Fix OOS QS tile icon tint
 And more...
+
+============
+| UPDATES |
+Fix update check on boot
+Improve alert dialog style
+Add back long click listener on update ui
+Fix mobile data warning "don't show again" checkbox
+Improve export update user notifications
+Set persistent status to starting when resuming
+Fix possible NPE when installing update
